@@ -1,8 +1,81 @@
-/*
-Colors:
+html,
+body {
+  background-color: green;
+}
+h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+h2 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+}
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+}
+h5 {
+  font-size: 1.2em;
+  line-height: 1em;
+}
 
-*/
+.nav-bar {
+  background-color: darkblue;
+  font-size: 2em;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar li {
+  list-style: none;
+}
+header {
+  background-position: 0, 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+.header-title {
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+}
+.header-quote {
+  font-size: 2.5em;
+  margin: 0px;
+}
+.section1 {
+  background-color: darkblue;
+  color: white;
+}
+p {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+}
+.link-btn {
+  color: white;
+  font-family: Roboto Condensed;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+}
+.section2 {
+  font-size: 1.7em;
+  text-align: center;
+}
+.service-box img {
+  width: 125px;
+}
